@@ -1,1 +1,239 @@
-ECHO is on.
+     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,200;1,300&display=swap');
+     * {
+         padding: 0px;
+         margin: 0px;
+     }
+     
+     body {
+         font-family: 'Nunito Sans', sans-serif;
+         font-size: 10px;
+         background-color: lightgrey;
+     }
+     
+     .logo-text {
+         font-size: 3em;
+         font-weight: 700;
+         color: orangered;
+     }
+     
+     nav ul {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         list-style-type: none;
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+     
+     nav ul li {
+         padding: 10px;
+         margin: 0 25px;
+     }
+     
+     .nav-link {
+         font-size: 2em;
+         text-decoration: none;
+         color: black;
+         cursor: pointer;
+     }
+     
+     .nav-link:hover {
+         color: orangered;
+     }
+     
+     #home {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background: black;
+         color: white;
+         margin: 2em;
+         height: 450px;
+     }
+     
+     header div p {
+         font-size: 2em;
+         font-weight: 200;
+     }
+     
+     h1,
+     h3,
+     h4 {
+         font-weight: bold;
+     }
+     
+     h1 {
+         font-size: 5em;
+     }
+     
+     h2 {
+         font-size: 4em;
+     }
+     
+     h3 {
+         font-size: 2em;
+     }
+     
+     h4 {
+         font-size: 1.8em;
+     }
+     
+     h2 {
+         font-weight: 500;
+     }
+     
+     .link-button {
+         text-decoration: none;
+         text-align: center;
+         background: orangered;
+         cursor: pointer;
+         color: white;
+         font-weight: 100;
+         letter-spacing: 0.5px;
+         font-size: 1.5em;
+         border-radius: 10%;
+         padding: 10px;
+         border-color: black;
+     }
+     
+     .link-button:hover {
+         color: black;
+     }
+     /* DRY i.e Dont Repeat Yourself*/
+     
+     #bio {
+         display: flex;
+         margin: 100px;
+     }
+     
+     #bio article * {
+         margin: 20px;
+     }
+     
+     #bio img {
+         height: 250px;
+         width: 250px;
+         border-radius: 50%;
+         margin: 10px;
+     }
+     
+     p {
+         font-size: 1.5em;
+     }
+     
+     #portfolio div {
+         display: flex;
+         justify-content: space-around;
+         margin: 10px 0;
+         width: 100%;
+     }
+     
+     #portfolio {
+         background: url(.assets/portfolio.jpg);
+         background: black;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 50px;
+     }
+     
+     #portfolio h3,
+     p,
+     hr {
+         margin-bottom: 20px;
+     }
+     
+     hr {
+         width: 400px;
+     }
+     
+     #portfolio div div {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         background-color: white;
+         color: black;
+         height: 200px;
+         width: 200px;
+         text-align: center;
+         flex-direction: column;
+         border-radius: 10px;
+     }
+     
+     progress[value] {
+         -webkit-appearance: none;
+         width: 250px;
+         height: 10px;
+     }
+     
+     progress[value]::-webkit-progress-bar {
+         background-color: grey;
+         border-radius: 2px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+     }
+     
+      ::-webkit-progress-value {
+         background-color: orangered;
+     }
+     
+     #skills ul {
+         font-size: 1.5em;
+     }
+     
+     #contact {
+         background-color: black;
+         color: white;
+     }
+     
+     .input {
+         line-height: 3px;
+         height: 35px;
+         width: 350px;
+         border-radius: 2px;
+         border-color: black;
+         margin: 20px 0;
+     }
+     
+     #contactform input:last-child {
+         margin-top: 30px;
+     }
+     
+     #skills {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 50px;
+     }
+     
+     #skill-container {
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+     }
+     
+     #skills ul {
+         list-style-type: none;
+     }
+     
+     #skills ul li {
+         margin: 10px 0;
+     }
+     
+     #skill-container div {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     
+     #contact {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         padding: 40px;
+     }
+     
+     .break {
+         display: block;
+     }

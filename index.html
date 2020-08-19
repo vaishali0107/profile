@@ -5,41 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>
+            <li class="logo-text">
                 ProGrad
             </li>
             <ul>
-                <li>Home</li>
-                <li>Bio</li>
-                <li>Portfolio</li>
-                <li>Skills</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#bio" class="nav-link">Bio</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link link-button">Contact</a>
+                </li>
             </ul>
         </ul>
     </nav>
-    <header>
+    <header id='home'>
         <div>
             <p>I BELIEVE </p>
             <h1>EAT (); CODE (); SLEEP (); REPEAT ();</h1>
         </div>
     </header>
-    <section>
-        <img src="./assets/vishu.jpg" alt="photo">
+    <section id="bio">
+        <img src="./assets/vishu.jpg" alt="photo" height="150px" width="150px">
         <article>
             <h2>Vaishali</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad distinctio voluptates, enim et at ducimus repellat quisquam consectetur autem cupiditate error tempore nostrum corrupti a ut vitae incidunt exercitationem nulla sint voluptatum
-                beatae!
+            <p>I am a passionate Engineer with degree inComputer Science Engineering.My very first Experiencewithcoding was whaen i built a samll E-commerce website using python and django.My struggle to customize thewebsite pages introduced me to html and
+                css.
             </p>
-            <a href="#">Download my Resume</a>
+            <span class="break"></span>
+            <p>Currently I am Looking to make my caree as a javaull Stack developer.</p>
+            <a href="#" class="link-button">Download my Resume</a>
         </article>
 
     </section>
-    <section>
+    <section id="portfolio">
         <h3>PORTFOLIO</h3>
         <p>Some of my best Projects</p>
         <hr>
@@ -47,96 +60,103 @@
             <div>
                 <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="icon">
                 <h4>PERSONAL BLOG</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                <p> A blog where i pen down my own thought of programming.</p>
             </div>
             <div>
                 <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="icon">
                 <h4>TIC-TAC-TOE</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Complete Tic-Tac-Tor game along with Gui of Java</p>
             </div>
             <div>
                 <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="icon">
                 <h4>TIME TABLE GENERATOR</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>A web application for automatic time table generation.</p>
             </div>
         </div>
 
     </section>
-    <section>
+    <section id="skills">
         <h3>SKILLS</h3>
-        <div>
-            <h4>TECHNICAL SKILLS</h4>
+        <div id="skill-container">
             <div>
-                <ul>
-                    <li>HTML</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
+                <h4>TECHNICAL SKILLS</h4>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress>
+                        </li>
 
-                    <li>CSS</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>JAVA</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>JAVASCRIPT</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>HINDI</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>ENGLISH</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>KANNAD</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                    <li>TELGU</li>
-                    <li>
-                        <progress value=80 max=100></progress>
-                    </li>
-                </ul>
+                        <li>CSS</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100>
+                            </progress>
+                        </li>
+                        <li>JAVA</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100>
+                            </progress>
+                        </li>
+                        <li>JAVASCRIPT</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100>
+                            </progress>
+                        </li>
+                        <li>HINDI</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100>
+                            </progress>
+                        </li>
+                        <li>ENGLISH</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress>
+                        </li>
+                        <li>KANNAD</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress>
+                        </li>
+                        <li>TELGU</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div>
-            <h4>Languages</h4>
             <div>
-                <ul>
-                    <li>C</li>
-                    <li><progress value=80 max=100></progress></li>
-                    <li>C++</li>
-                    <li><progress value=80 max=100></progress></li>
-                    <li>JAVA</li>
-                    <li><progress value=80 max=100></progress></li>
-                    <li>PYTHON</li>
-                    <li><progress value=80 max=100></progress></li>
-                </ul>
+                <h4>Languages</h4>
+                <div>
+                    <ul>
+                        <li>C</li>
+                        <li><progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress></li>
+                        <li>C++</li>
+                        <li>
+                            <progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100>
+                            </progress>
+                        </li>
+                        <li>JAVA</li>
+                        <li><progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress></li>
+                        <li>PYTHON</li>
+                        <li><progress style="height:10px;width:350px;background-color:orangered;border-radius:5px;border-radius:5px;" value=80 max=100></progress></li>
+                    </ul>
+                </div>
             </div>
         </div>
+
 
 
     </section>
-    <footer>
+    <footer id="contact">
         <h3>CONTACT</h3>
-        <form action="">
-            <input type="text" placeholder="ENTER YOUR NAME">
+        <form action=" ">
+            <input class="input" type=" text " placeholder="ENTER YOUR NAME ">
             <br><br>
-            <input type="text" placeholder="ENTER YOUR EMAIL">
+            <input class="input" type=" text " placeholder="ENTER YOUR EMAIL ">
             <br><br>
-            <input type="text" placeholder="ENTER YOUR MESSAGE">
+            <input class="input" type=" text " placeholder="ENTER YOUR MESSAGE ">
             <br><br>
-            <input type="submit" value="Send message">
+            <input class="link-button " type=" submit " value="Send message ">
         </form>
     </footer>
 </body>
 
-</html>
-
-</html>ECHO is on.
-ECHO is on.
+</html>class="input
